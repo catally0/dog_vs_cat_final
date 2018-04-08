@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 from PIL import Image
 
@@ -23,6 +23,8 @@ def load_data_size(data_path, name):
     df.to_excel("data_%s.xlsx"%name, index=False)
 
 # 绘制散点图
+def draw(file):
+    pass
 
 # main
 def main():
