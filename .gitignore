@@ -3,3 +3,4 @@
 *.tmp
 data
 nohup.out
+*.h5
